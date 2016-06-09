@@ -70,5 +70,5 @@ if __name__ == '__main__':
     print('\n'.join(errors))
     sys.exit(1)
   file_path = os.path.abspath(args[1])
-  target_path = os.path.abspath(abs[2])
+  target_path = os.path.abspath(args[2])
   main(file_path, target_path)
